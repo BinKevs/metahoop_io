@@ -15,6 +15,9 @@ module.exports = {
 			},
 			colors: {
 				"orange-primary-color": "#EE6730",
+
+				"orange-light-color": "#FF7F4D",
+				"basketball-color": "#D94C14",
 			},
 		},
 	},

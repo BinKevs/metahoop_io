@@ -4,6 +4,10 @@ import hagoromo from "../static/kobe.jfif";
 import nofomo from "../static/kobe.jfif";
 import ring_left from "../static/Ring-With-Body-Left.png";
 import ring_right from "../static/Ring-With-Body-Right.png";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+
+AOS.init();
 const Team = () => {
 	return (
 		<div
@@ -19,7 +23,19 @@ const Team = () => {
 							alt=""
 						/>
 						<div>
-							METAHOOPS MYTICAL TEAM
+							<span
+								data-aos="fade-left"
+								data-aos-delay="500"
+							>
+								METAHOOPS
+							</span>{" "}
+							<span
+								data-aos="fade-right"
+								data-aos-delay="500"
+								data-aos-delay="150"
+							>
+								MYTICAL TEAM
+							</span>
 						</div>
 
 						<img
@@ -42,7 +58,7 @@ const Team = () => {
 								CEO / Developer
 							</div>
 						</div>
-						<div className="md:w-1/4 w-full md:mb-0 mb-10 text-center">
+						<div className="md:w-1/4 w-full mb-10 text-center">
 							<img
 								src={hagoromo}
 								alt="..."
@@ -55,7 +71,7 @@ const Team = () => {
 								CEO / Developer
 							</div>
 						</div>
-						<div className="md:w-1/4 w-full md:mb-0 mb-10 text-center">
+						<div className="md:w-1/4 w-full mb-10 text-center">
 							<img
 								src={chidori}
 								alt="..."
@@ -68,7 +84,7 @@ const Team = () => {
 								Co-Developer
 							</div>
 						</div>
-						<div className="md:w-1/4 w-full md:mb-0 mb-10 text-center">
+						<div className="md:w-1/4 w-full  mb-10 text-center">
 							<img
 								src={gonfreecs}
 								alt="..."

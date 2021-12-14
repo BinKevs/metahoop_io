@@ -9,6 +9,7 @@ import Show_Case_4 from "../static/melo.jfif";
 
 import ring_left from "../static/Ring-left.png";
 import ring_right from "../static/Ring-right.png";
+
 // import Show_Case_5 from "../statics/Show_Case_5.png";
 // import Show_Case_6 from "../static/Show_Case_6.png";
 // import Show_Case_7 from "../static/Show_Case_7.png";

@@ -11,7 +11,7 @@ import LandingBG from "../static/Landing-Background.png";
 
 import Jordan from "../static/Jordan.png";
 import { Animated } from "react-animated-css";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import Typewriter from "typewriter-effect";
 
 class LandingPage extends React.Component {
 	constructor(props) {
@@ -69,7 +69,7 @@ class LandingPage extends React.Component {
 										mobile_nav_close
 									}
 									alt=""
-									class="w-10"
+									class="h-10"
 								/>
 							</div>
 							<div className="font-Oswald font-bold text-white flex flex-col items-center text-xl space-y-8 m-auto cursor-pointer">
@@ -157,7 +157,7 @@ class LandingPage extends React.Component {
 					)}
 
 					<header class="text-white z-20">
-						<div class="flex items-center lg:justify-center justify-between md:pt-20 pt-5 space-x-10">
+						<div class="flex items-center lg:justify-center justify-between md:pt-10 pt-5 space-x-10">
 							<a class="flex md:-mt-4">
 								<img
 									src={
@@ -191,7 +191,7 @@ class LandingPage extends React.Component {
 									spy={
 										true
 									}
-									className="cursor-pointer hover:text-white"
+									className="cursor-pointer hover:text-orange-400 hover:text-2xl hover:tracking-widest"
 								>
 									INTRO
 								</Link>
@@ -204,7 +204,7 @@ class LandingPage extends React.Component {
 									spy={
 										true
 									}
-									className="cursor-pointer hover:text-white"
+									className="cursor-pointer hover:text-orange-400 hover:text-2xl hover:tracking-widest"
 								>
 									SHOWCASE
 								</Link>
@@ -217,7 +217,7 @@ class LandingPage extends React.Component {
 									spy={
 										true
 									}
-									className="cursor-pointer hover:text-white"
+									className="cursor-pointer hover:text-orange-400 hover:text-2xl hover:tracking-widest"
 								>
 									ROADMAP
 								</Link>
@@ -229,7 +229,7 @@ class LandingPage extends React.Component {
 									spy={
 										true
 									}
-									className="cursor-pointer hover:text-white"
+									className="cursor-pointer hover:text-orange-400 hover:text-2xl hover:tracking-widest"
 								>
 									FAQ
 								</Link>
@@ -241,7 +241,7 @@ class LandingPage extends React.Component {
 									spy={
 										true
 									}
-									className="cursor-pointer hover:text-white"
+									className="cursor-pointer hover:text-orange-400 hover:text-2xl hover:tracking-widest"
 								>
 									TEAM
 								</Link>
@@ -279,19 +279,29 @@ class LandingPage extends React.Component {
 							<img
 								src={Jordan}
 								alt=""
-								className="mx-auto md:w-48 w-32 mb-8"
+								className="mx-auto md:w-48 w-32 mb-4 "
 							/>
 							<div className="flex text-white justify-center">
 								<div className="text-center my-auto space-y-4">
-									<div className="font-Oswald font-bold  md:text-3xl text-2xl text-white">
+									<div className="font-Oswald font-bold  md:text-2xl text-lg text-white">
+										{" "}
 										WELCOME
 										TO
-										THE{" "}
-										<span className="">
-											METAHOOPS!
-										</span>
+										<div className=" md:text-5xl text-3xl">
+											<Typewriter
+												options={{
+													strings: [
+														"<span class='text-orange-400'>META</span>",
+														"HOOPS",
+														"META<span class='text-orange-400'>HOOPS!</span>",
+													],
+													autoStart: true,
+													loop: true,
+												}}
+											/>
+										</div>
 									</div>
-									<div className="font-Oswald text-md w-4/5 mx-auto">
+									<div className="font-Oswald text-lg w-4/5 mx-auto">
 										<div>
 											Lorem
 											ipsum
@@ -300,24 +310,14 @@ class LandingPage extends React.Component {
 											amet,
 											consectetur
 											adipisicing
+											consectetur
+											adipisicing
 										</div>{" "}
-										elit.
-										Aliquid
-										voluptates,
-										porro
-										recusandae
-										blanditiis,
-										ut
-										laborum,
-										labore
-										voluptate
-										suscipit
-										nemo
 									</div>
 									<div>
 										<button
 											class={
-												"p-4 pl-10 md:pl-20  pr-10 md:pr-20  text-md md:text-xl font-Oswald font-bold w-4/6 md:mb-0 mb-10 bg-orange-primary-color text-white"
+												"p-4  hover:text-2xl text-md md:text-xl font-Oswald font-bold w-3/5 hover:w-4/6 md:mb-0 mb-10 bg-orange-primary-color hover:bg-orange-light-color text-white"
 											}
 										>
 											MINT
