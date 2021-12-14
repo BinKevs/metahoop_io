@@ -1,6 +1,6 @@
 import Typewriter from "typewriter-effect";
 import React, { useState } from "react";
-
+import { Animated } from "react-animated-css";
 const FAQ = () => {
 	const [firstQ, setfirstQ] = useState(false);
 	const [secondQ, setsecondQ] = useState(false);
@@ -32,7 +32,7 @@ const FAQ = () => {
 						<div>
 							{firstQ ? (
 								<>
-									<Typewriter
+									{/* <Typewriter
 										options={{
 											skipAddStyles: true,
 											autoStart: true,
@@ -48,7 +48,33 @@ const FAQ = () => {
 												)
 												.start();
 										}}
-									/>
+									/> */}
+									<Animated
+										animationIn="fadeInDown"
+										animationOut="fadeOutUp"
+										animationInDuration={
+											500
+										}
+										animationOutDuration={
+											500
+										}
+										isVisible={
+											firstQ
+										}
+										className={`font-Oswald font-normal md:text-lg text-sm text-FAQ-text-color md:w-full w-3/5 ${
+											firstQ
+												? ""
+												: "hidden"
+										}`}
+									>
+										"sapiente
+										omnis
+										quidem
+										autem
+										consectetur
+										mollitia
+										deleniti,"
+									</Animated>
 									<h2>
 										|
 										|
@@ -74,7 +100,7 @@ const FAQ = () => {
 						<div>
 							{secondQ ? (
 								<>
-									<Typewriter
+									{/* <Typewriter
 										options={{
 											autoStart: true,
 											loop: false,
@@ -89,7 +115,33 @@ const FAQ = () => {
 												)
 												.start();
 										}}
-									/>
+									/> */}
+									<Animated
+										animationIn="fadeInDown"
+										animationOut="fadeOutUp"
+										animationInDuration={
+											500
+										}
+										animationOutDuration={
+											500
+										}
+										isVisible={
+											secondQ
+										}
+										className={`font-Oswald font-normal md:text-lg text-sm text-FAQ-text-color md:w-full w-3/5 ${
+											secondQ
+												? ""
+												: "hidden"
+										}`}
+									>
+										"sapiente
+										omnis
+										quidem
+										autem
+										consectetur
+										mollitia
+										deleniti,"
+									</Animated>
 									<h2>
 										|
 										|
@@ -116,7 +168,7 @@ const FAQ = () => {
 						<div>
 							{thirdQ ? (
 								<>
-									<Typewriter
+									{/* <Typewriter
 										options={{
 											autoStart: true,
 											loop: false,
@@ -131,7 +183,33 @@ const FAQ = () => {
 												)
 												.start();
 										}}
-									/>
+									/> */}
+									<Animated
+										animationIn="fadeInDown"
+										animationOut="fadeOutUp"
+										animationInDuration={
+											500
+										}
+										animationOutDuration={
+											500
+										}
+										isVisible={
+											thirdQ
+										}
+										className={`font-Oswald font-normal md:text-lg text-sm text-FAQ-text-color md:w-full w-3/5 ${
+											thirdQ
+												? ""
+												: "hidden"
+										}`}
+									>
+										"sapiente
+										omnis
+										quidem
+										autem
+										consectetur
+										mollitia
+										deleniti,"
+									</Animated>
 									<h2>
 										|
 										|
@@ -157,7 +235,7 @@ const FAQ = () => {
 						<div>
 							{fourtQ ? (
 								<>
-									<Typewriter
+									{/* <Typewriter
 										options={{
 											autoStart: true,
 											loop: false,
@@ -172,7 +250,33 @@ const FAQ = () => {
 												)
 												.start();
 										}}
-									/>
+									/> */}
+									<Animated
+										animationIn="fadeInDown"
+										animationOut="fadeOutUp"
+										animationInDuration={
+											500
+										}
+										animationOutDuration={
+											500
+										}
+										isVisible={
+											fourtQ
+										}
+										className={`font-Oswald font-normal md:text-lg text-sm text-FAQ-text-color md:w-full w-3/5 ${
+											fourtQ
+												? ""
+												: "hidden"
+										}`}
+									>
+										"sapiente
+										omnis
+										quidem
+										autem
+										consectetur
+										mollitia
+										deleniti,"
+									</Animated>
 									<h2>
 										|
 										|

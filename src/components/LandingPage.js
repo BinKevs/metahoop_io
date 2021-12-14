@@ -283,11 +283,10 @@ class LandingPage extends React.Component {
 							/>
 							<div className="flex text-white justify-center">
 								<div className="text-center my-auto space-y-4">
-									<div className="font-Oswald font-bold  md:text-2xl text-lg text-white">
-										{" "}
+									<div className="font-Oswald font-bold  md:text-2xl text-lg text-white inline">
 										WELCOME
-										TO
-										<div className=" md:text-5xl text-3xl">
+										TO{" "}
+										<span className="md:text-5xl text-3xl ">
 											<Typewriter
 												options={{
 													strings: [
@@ -299,7 +298,51 @@ class LandingPage extends React.Component {
 													loop: true,
 												}}
 											/>
-										</div>
+											{/* <Typewriter
+												options={{
+													autoStart: true,
+													loop: true,
+													delay: 150,
+												}}
+												onInit={(
+													typewriter
+												) => {
+													typewriter
+														.pasteString(
+															"WELCOME TO "
+														)
+														.pauseFor(
+															700
+														)
+														.typeString(
+															"<span class='text-orange-400'>META</span>"
+														)
+														.pauseFor(
+															500
+														)
+														.deleteChars(
+															4
+														)
+														.typeString(
+															"HOOPS"
+														)
+														.pauseFor(
+															500
+														)
+														.deleteChars(
+															5
+														)
+														.typeString(
+															"META<span class='text-orange-400'>HOOPS!</span>"
+														)
+														.pauseFor(
+															1000
+														)
+														.deleteAll()
+														.start();
+												}}
+											/> */}
+										</span>
 									</div>
 									<div className="font-Oswald text-lg w-4/5 mx-auto">
 										<div>
