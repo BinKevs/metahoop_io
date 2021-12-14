@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/metahoop_io/static/css/main.b1362d57.css",
-    "main.js": "/metahoop_io/static/js/main.88496911.js",
+    "main.css": "/metahoop_io/static/css/main.4f1b331e.css",
+    "main.js": "/metahoop_io/static/js/main.8ff83470.js",
     "static/js/787.dcc602b3.chunk.js": "/metahoop_io/static/js/787.dcc602b3.chunk.js",
     "static/media/FAQ-Background.png": "/metahoop_io/static/media/FAQ-Background.2705368045c66166932a.png",
     "static/media/Landing-Background.png": "/metahoop_io/static/media/Landing-Background.34c5f5a7845bd4018068.png",
@@ -19,12 +19,12 @@
     "static/media/irving.jfif": "/metahoop_io/static/media/irving.ce60f37f67c304b75c31.jfif",
     "static/media/logo.svg": "/metahoop_io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/metahoop_io/index.html",
-    "main.b1362d57.css.map": "/metahoop_io/static/css/main.b1362d57.css.map",
-    "main.88496911.js.map": "/metahoop_io/static/js/main.88496911.js.map",
+    "main.4f1b331e.css.map": "/metahoop_io/static/css/main.4f1b331e.css.map",
+    "main.8ff83470.js.map": "/metahoop_io/static/js/main.8ff83470.js.map",
     "787.dcc602b3.chunk.js.map": "/metahoop_io/static/js/787.dcc602b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1362d57.css",
-    "static/js/main.88496911.js"
+    "static/css/main.4f1b331e.css",
+    "static/js/main.8ff83470.js"
   ]
 }
