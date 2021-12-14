@@ -246,7 +246,7 @@ class LandingPage extends React.Component {
 									TEAM
 								</Link>
 								<a
-									href="https://twitter.com/RoyalPangolins"
+									href=""
 									target="_blank"
 									class="mr-5 cursor-pointer"
 								>
@@ -259,7 +259,7 @@ class LandingPage extends React.Component {
 									/>
 								</a>
 								<a
-									href="https://discord.gg/NbFSjgTd"
+									href=""
 									target="_blank"
 									class="cursor-pointer"
 								>
