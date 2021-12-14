@@ -8,7 +8,7 @@ const FAQ = () => {
 	const [fourtQ, setfourtQ] = useState(false);
 	return (
 		<div
-			id="IntroPage"
+			id="FAQPage"
 			className="bg-FAQ-image bg-cover bg-center bg-no-repeat flex py-36"
 		>
 			<div className="flex justify-center m-auto">

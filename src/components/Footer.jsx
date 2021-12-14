@@ -8,7 +8,7 @@ const Footer = () => {
 					alt=""
 					class=" w-1/4 md:w-1/6"
 				/>
-				<div className="font-Oswald font-semibold  md:text-xl text-sm text-white">
+				<div className="font-Oswald font-semibold md:text-xl text-sm text-white">
 					Copyright 2021 - METAHOOPS!
 				</div>
 				<div></div>
