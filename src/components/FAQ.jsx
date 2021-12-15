@@ -61,7 +61,7 @@ const FAQ = () => {
 										isVisible={
 											firstQ
 										}
-										className={`font-Oswald font-normal md:text-lg text-sm text-FAQ-text-color md:w-full w-3/5 ${
+										className={`font-Oswald font-normal md:text-lg text-sm text-FAQ-text-color w-full ${
 											firstQ
 												? ""
 												: "hidden"
@@ -128,7 +128,7 @@ const FAQ = () => {
 										isVisible={
 											secondQ
 										}
-										className={`font-Oswald font-normal md:text-lg text-sm text-FAQ-text-color md:w-full w-3/5 ${
+										className={`font-Oswald font-normal md:text-lg text-sm text-FAQ-text-color w-full${
 											secondQ
 												? ""
 												: "hidden"
@@ -196,7 +196,7 @@ const FAQ = () => {
 										isVisible={
 											thirdQ
 										}
-										className={`font-Oswald font-normal md:text-lg text-sm text-FAQ-text-color md:w-full w-3/5 ${
+										className={`font-Oswald font-normal md:text-lg text-sm text-FAQ-text-color w-full ${
 											thirdQ
 												? ""
 												: "hidden"
@@ -263,7 +263,7 @@ const FAQ = () => {
 										isVisible={
 											fourtQ
 										}
-										className={`font-Oswald font-normal md:text-lg text-sm text-FAQ-text-color md:w-full w-3/5 ${
+										className={`font-Oswald font-normal md:text-lg text-sm text-FAQ-text-color w-full${
 											fourtQ
 												? ""
 												: "hidden"
