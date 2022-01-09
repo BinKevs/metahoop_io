@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/metahoop_io/static/css/main.7bc6c40d.css",
-    "main.js": "/metahoop_io/static/js/main.5b257f01.js",
+    "main.css": "/metahoop_io/static/css/main.dde30263.css",
+    "main.js": "/metahoop_io/static/js/main.b196be80.js",
     "static/js/787.dcc602b3.chunk.js": "/metahoop_io/static/js/787.dcc602b3.chunk.js",
-    "static/media/FAQ-Background.png": "/metahoop_io/static/media/FAQ-Background.2705368045c66166932a.png",
+    "static/media/Court2.jpg": "/metahoop_io/static/media/Court2.7bd4f6b89ff89e70128f.jpg",
+    "static/media/LandingPage3.png": "/metahoop_io/static/media/LandingPage3.89aad9c842d2578c0b91.png",
     "static/media/Landing-Background.png": "/metahoop_io/static/media/Landing-Background.34c5f5a7845bd4018068.png",
     "static/media/Jordan.png": "/metahoop_io/static/media/Jordan.f5163b23f7c7f00b280d.png",
     "static/media/Landing-Logo.png": "/metahoop_io/static/media/Landing-Logo.d9d096e55dbb680a0427.png",
@@ -19,12 +20,12 @@
     "static/media/irving.jfif": "/metahoop_io/static/media/irving.ce60f37f67c304b75c31.jfif",
     "static/media/logo.svg": "/metahoop_io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/metahoop_io/index.html",
-    "main.7bc6c40d.css.map": "/metahoop_io/static/css/main.7bc6c40d.css.map",
-    "main.5b257f01.js.map": "/metahoop_io/static/js/main.5b257f01.js.map",
+    "main.dde30263.css.map": "/metahoop_io/static/css/main.dde30263.css.map",
+    "main.b196be80.js.map": "/metahoop_io/static/js/main.b196be80.js.map",
     "787.dcc602b3.chunk.js.map": "/metahoop_io/static/js/787.dcc602b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bc6c40d.css",
-    "static/js/main.5b257f01.js"
+    "static/css/main.dde30263.css",
+    "static/js/main.b196be80.js"
   ]
 }
