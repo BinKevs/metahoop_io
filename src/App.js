@@ -9,17 +9,17 @@ import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 
 function App() {
-	return (
-		<>
-			<LandingPage />
-			<Intro />
-			<Showcase />
-			<Roadmap />
-			<FAQ />
-			<Team />
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <LandingPage />
+      <Intro />
+      <Showcase />
+      <Roadmap />
+      <FAQ />
+      <Team />
+      <Footer />
+    </>
+  );
 }
 
 export default App;

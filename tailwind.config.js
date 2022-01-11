@@ -6,6 +6,7 @@ module.exports = {
         "landing-image": "url('/src/static/LandingPage3.png')",
         "roadmap-image": "url('/src/static/RoadMap-Background.png')",
         "FAQ-image": "url('/src/static/Court2.jpg')",
+        "half-court": "url('/src/static/halfcourt-final.png')",
       },
       fontFamily: {
         Oswald: ["Oswald", "sans-serif"],
